@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forms & Inputs</title>
+	</head>
+	<body>
+		<h1>Registration Form for Ethical Hackers</h1>
+		<form action="POST" action="index.php">
+			<fieldset>
+				<legend>Account</legend>
+				<label>Name</label><br>
+				<input type="text" name="name" required="">
+				<br><br>
+				<label>Email</label><br>
+				<input type="Email" name="Email">
+				<br><br>
+				<label>Password</label><br>
+				<input type="Password" name="Password">
+				<br><br>
+			</fieldset>
+			<fieldset>
+				<legend>Personal Info</legend>
+				<label>Location</label><br>
+				<select name="Location">
+					<option value="Delhi" >Delhi</option>
+					<option value="Chennai" selected="">Chennai</option>
+					<option value="Shri nagar">Shri nagar</option>
+				</select>
+				<br><br>
+				<label>Gender</label><br>
+				<input type="radio" name="Gender" value="Male">Male
+				<input type="radio" name="Gender" value="Female" checked="">Female
+				<input type="radio" name="Gender" value="Transgender">Transgender
+				<br><br>
+
+				<label>Intreast</label><br>
+				<input type="checkbox" name="Intreast" value="web penetration ">web penetration
+				<input type="checkbox" name="Intreast" value="Coding">Coding
+				<input type="checkbox" name="Intreast" value="Ethical Hacking" checked="">Ethical Hacking
+				<input type="checkbox" name="Intreast" value="Bash Scripting">Bash Scripting
+				<br><br>
+			</fieldset>
+			<br>
+			<input type="submit" name="submit">
+		</form>
+	</body>
+</html>
