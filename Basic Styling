@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic Styling</title>
+		<style type="text/css">
+			body{
+				background:lightgray;
+				font-family: Comic sans MS;
+				line-height: 1.5em;
+			}
+
+			#container{
+				border:1.5px black solid;
+				padding-left: 10px;
+				padding-right: 10px;
+				width: 800px;
+				margin: 30px auto;
+				overflow: hidden;
+			}
+
+			.emp{
+				color: blue;
+				font-weight: bold;
+				font-family: Comic sans MS;
+			}
+
+			.side-a{
+				float: left;
+				width: 50%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div class="side-a">
+				<h1>Welcome</h1>
+				<p>Mauris posuere feugiat tristique. Nullam ac ex lorem. Pellentesque pretium tincidunt sapien id faucibus.<samp class="emp"> Vivamus maximus, neque at facilisis tempus, ante nunc vehicula neque, eget interdum nisi augue varius nulla.</samp> Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer libero mi, dapibus blandit ante eget, consectetur ultricies velit. Proin hendrerit sem id lacus pellentesque, nec imperdiet eros venenatis. Integer tristique lacus sit amet arcu suscipit cursus. Aenean sem risus, aliquam ut nunc nec, pretium interdum neque.<samp class="emp"> Cras viverra, eros a luctus sollicitudin, est enim ornare felis, at ultricies magna urna ut est.</samp> Sed laoreet dictum odio, eu egestas lectus finibus et. Sed vel quam vel erat dapibus semper a sed mi. Nulla felis turpis, cursus in nibh id, rhoncus commodo sapien. Aliquam venenatis non ipsum a lobortis. Integer vitae sapien posuere, porta velit vitae, pellentesque lorem. Phasellus eget sem nec arcu fermentum tincidunt quis eget enim. </p>
+			</div>
+			<div class="side-b">
+				<h1>Hello</h1>
+				<p>Mauris posuere feugiat tristique. Nullam ac ex lorem. Pellentesque pretium tincidunt sapien id faucibus.<samp class="emp"> Vivamus maximus, neque at facilisis tempus, ante nunc vehicula neque, eget interdum nisi augue varius nulla.</samp> Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer libero mi, dapibus blandit ante eget, consectetur ultricies velit. Proin hendrerit sem id lacus pellentesque, nec imperdiet eros venenatis. Integer tristique lacus sit amet arcu suscipit cursus. Aenean sem risus, aliquam ut nunc nec, pretium interdum neque.<samp class="emp"> Cras viverra, eros a luctus sollicitudin, est enim ornare felis, at ultricies magna urna ut est.</samp> Sed laoreet dictum odio, eu egestas lectus finibus et.  </p>
+			</div>
+		</div>
+	</body>
+</html>
