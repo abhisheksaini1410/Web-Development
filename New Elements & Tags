@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Elements & Tags</title>
+	<style>
+		body{
+			background:#666;
+			color:#fff;
+			font-family: arial;
+		}
+
+		a{
+			color:#fff;
+			text-decoration: none;
+		}
+
+		ul{
+			padding:0;
+		}
+
+		.clr{
+			clear:both;
+		}
+
+		#container{
+			background:#333;
+			width:960px;
+			margin:30px auto;
+			overflow:hidden;
+			padding:10px;
+		}
+
+		nav{
+			height:40px;
+			background:#666;
+		}
+
+		nav ul{
+			padding-top:13px;
+			padding-left:10px;
+		}
+
+		nav li{
+			list-style: none;
+			float:left;
+			padding-right:20px;
+		}
+
+		main{
+			float:left;
+			width:60%;
+		}
+
+		aside{
+			float:right;
+			width:30%;
+			background:#666;
+			margin-top:20px;
+			padding:10px;
+		}
+
+		footer{
+			text-align: center;
+			padding:10px;
+			background:#666;
+			margin-top:30px;
+		}	
+
+	</style>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>My Webpage</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<article>
+				<h3>Some Article</h3>
+				<p> Love might be blind, but I genuinely don’t care because I will love you both with my eyes opened and closed. Your love is the most significant change that happened in my life, and it opened my heart to a lot of opportunities. I love you, darling. </p>
+			</article>
+			<article>
+				<h3>Some Article</h3>
+				<p>You fill my heart with love. I feel satisfied knowing that I have someone as amazing as you are in my life. The cuteness of your smile and the taste of your lips is all I need to live up to 100. You are a dream come true, baby. </p>
+			</article>
+		</main>
+
+		<aside>
+			<h3>Sidebar</h3>
+			<p>My love for you is real, and I am sure of it. I give it with all sense of fulfillment because it is the best I’ve got to offer. You’re my sunshine and my motivation. I love you forever.</p>
+		</aside>
+
+		<div class="clr"></div>
+
+		<footer>
+			<p>Copyright &copy; 2016</p>
+		</footer>
+	</div>
+</body>
+</html>
